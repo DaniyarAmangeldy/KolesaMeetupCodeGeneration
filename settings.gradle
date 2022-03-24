@@ -1,0 +1,18 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        maven { url "https://repo1.maven.org/" }
+        mavenCentral()
+        google()
+    }
+}
+rootProject.name = "KolesaConfCodeGeneration"
+include ':app'
+include ':permrequester'
